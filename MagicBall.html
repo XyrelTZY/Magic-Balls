@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Xyrel" contextmenu="Owner">
+  <meta http-equiv="refresh" spellcheck="true" content="2500">
+  <title> Magic Ball</title>
+  <link rel="stylesheet" type="text/css" href="MagicBall.css">
+  <link rel="icon" type="image/x-icon" href="favicon_white.png">
+</head>
+<body>
+
+  <h3 class="title_main">Magic Ball
+    <p id="Owner">&copy; Xyrel D. Tenefrancia</p>
+  </h3>
+        <p class="main_dis"> Ask any "Question"↓</p>
+            <div class="magicBall_container" id="mb_container">
+                 <div class="magicBall_inner">
+                <h3 class="magicBall_response" id="response">8</h3>
+    </div>
+    <div class="magicBall_spotlight"></div>
+        <div class="magicBall_bg_shadow"></div>
+            <div class="magicBall_upper_shadow"></div>
+                <div class="magicBall_lower_shadow"></div>
+                
+</div>
+  <div class="inputfield">
+    <input type="text" placeholder="Ask Me Anything!" id="clear">
+    <button id="askme" onclick="myFunction() , setTimeout(askAgain, 9000);">Enter</button>
+
+  </div>
+  <script src="MagicBall.js"></script>
+</body>
+</html>
